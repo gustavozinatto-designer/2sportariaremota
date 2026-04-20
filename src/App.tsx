@@ -310,7 +310,7 @@ export default function App() {
           <div className="flex items-center group cursor-pointer pointer-events-auto h-10 md:h-12">
             <a href="#inicio" aria-label="Voltar para o início" className="h-full w-auto relative flex items-center">
               <img 
-                src="/images/logo-2s.png" 
+                src="images/logo-2s.png" 
                 alt="2S Portaria Logo" 
                 width="140"
                 height="48"
@@ -318,7 +318,7 @@ export default function App() {
                 loading="eager"
               />
               <img 
-                src="/images/logo-2s-white.png" 
+                src="images/logo-2s-white.png" 
                 alt="2S Portaria Logo Branca" 
                 width="140"
                 height="48"
@@ -397,7 +397,7 @@ export default function App() {
         >
           {/* Background Image - Performance Optimized */}
           <img 
-            src="/images/fundo-hero.jpg"
+            src="images/fundo-hero.jpg"
             alt="Arquitetura premium representando segurança"
             loading="eager"
             fetchPriority="high"
@@ -522,22 +522,22 @@ export default function App() {
               {
                 title: 'Portaria Remota',
                 desc: 'Tecnologia inovadora de controle de acesso gerenciada por nossa central 24h, garantindo rigor e eficiência total.',
-                image: '/images/portaria-remota.webp'
+                image: 'images/portaria-remota.webp'
               },
               {
                 title: 'Portaria Híbrida',
                 desc: 'O melhor dos dois mundos: presença física durante o dia e vigilância remota absoluta durante a noite.',
-                image: '/images/portaria-hibrida.webp'
+                image: 'images/portaria-hibrida.webp'
               },
               {
                 title: 'Portaria Autônoma',
                 desc: 'Autonomia completa com integração via app, permitindo o gerenciamento direto de acessos pelo morador.',
-                image: '/images/portaria-autonoma.webp'
+                image: 'images/portaria-autonoma.webp'
               },
               {
                 title: 'Portaria Presencial',
                 desc: 'Excelência em atendimento físico com suporte tecnológico da 2S para condomínios de alto fluxo.',
-                image: '/images/portaria-presencial.webp'
+                image: 'images/portaria-presencial.webp'
               }
             ].map((service, idx) => (
               <motion.div
@@ -794,7 +794,7 @@ export default function App() {
         {/* Architectural Background Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/fundo-secao-nossa-essencia.webp" 
+            src="images/fundo-secao-nossa-essencia.webp" 
             alt="Arquitetura de fundo" 
             width="1920"
             height="1080"
@@ -965,7 +965,7 @@ export default function App() {
               <div className="flex items-center gap-6">
                 <div className="h-20 md:h-32 w-auto">
                   <img 
-                    src="/images/logo-2s-white.png" 
+                    src="images/logo-2s-white.png" 
                     alt="2S Portaria Logo Branca Footer" 
                     width="180"
                     height="64"
